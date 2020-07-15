@@ -37,9 +37,6 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=BalsamiqSans&display=swap');
 
-.background-image{
-  background: url('../assets/photo/background.jpg') center ;
-}
 #twel{
     font-family: 'Kaushan Script', cursive;
     font-size: 18px;
