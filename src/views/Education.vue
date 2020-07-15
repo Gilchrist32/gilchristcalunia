@@ -73,6 +73,7 @@
   }
    #card-education{
     background: #212121;
+    color: #3a4d91;
   }
   #card-text{
     font-size: 15px;
