@@ -42,12 +42,6 @@ export default {
 .bg{
     background: url('../assets/photo/background.jpg') center ;
 }
-  .jumbotron{
-    background: #24315E;
-    border-radius: 0px;
-    color: #A8D1E7;
-    margin-top: 75px;
-  }
   #n-subscribers{
     color: #ECAB44;
   }
