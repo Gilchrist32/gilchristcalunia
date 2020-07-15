@@ -10,6 +10,7 @@
     </div>
     <router-view />
         <Footer />
+        <back-to-top />
   </div>
 </template>
 <script>
@@ -17,6 +18,7 @@ export default {
   components: {
     Navbar: () => import('@/components/Navbar'),
     Footer: () => import('@/components/Footer'),
+    BackToTop: () => import('@/components/BackToTop')
   }
 }
 </script>
