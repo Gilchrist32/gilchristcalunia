@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg">
     <b-infohome>
       <b-row class="justify-content-center text-center">
         <b-col cols="sm-12">
@@ -39,6 +39,9 @@ export default {
 </script>
 
 <style>
+.bg{
+    background: url('../assets/photo/background.jpg') center ;
+}
   .jumbotron{
     background: #24315E;
     border-radius: 0px;
