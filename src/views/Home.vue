@@ -1,17 +1,16 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/photo/logo.png">
-
+    <Infohome />
   </div>
 </template>
 
 <script>
-
+// @ is an alias to /src
 
 export default {
   name: 'Home',
   components: {
-    
+    Infohome: () => import('@/components/Infohome.vue')
   }
 }
 </script>
