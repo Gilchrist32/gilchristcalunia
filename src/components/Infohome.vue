@@ -46,28 +46,5 @@ export default {
 .bg{
     background: url('../assets/photo/background.jpg') center ;
 }
- #twel{
-    font-family: 'Kaushan Script', cursive;
-    font-size: 18px;
-    color: #ffffff;
-    padding-top: 25px;
-  }
-#mname{
-    font-family: 'Righteous', cursive;
-    color: #3F51B5;
-    font-size: 40px;
-  }
-#quo{
-    font-family: 'Lobster', cursive;
-    font-size: 18px;
-    font-weight: bolder;
-    color: #ffffff;
-    }
-#subs{
-  font-size: 12px;
-}
-#chat{
-  color: #ffffff;
-  font-family: 'Balsamiq Sans';
-}
+
 </style>
