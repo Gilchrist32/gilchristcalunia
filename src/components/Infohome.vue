@@ -38,22 +38,23 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Righteous&family=Lobster&family=Balsamiq+Sans&display=swap');
 .bg{
     background: url('../assets/photo/background.jpg') center ;
 }
  #twel{
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Kaushan Script';
     font-size: 18px;
     color: #ffffff;
     padding-top: 25px;
   }
 #mname{
-    font-family: 'Righteous', cursive;
+    font-family: 'Righteous';
     color: #3F51B5;
     font-size: 40px;
   }
 #quo{
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster';
     font-size: 18px;
     font-weight: bolder;
     color: #ffffff;
