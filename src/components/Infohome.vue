@@ -5,7 +5,7 @@
           <b-container>
               <b-row>
                   <div class="white-text text-center text-md-left col-md-6 mt-xl-5 mb-6 mt-3  ">
-                    <h6 id="twel" class="h6-responsive font-weight-bold mt-sm-3">Wellcome! I'M</h6>
+                    <h6 id="twel" class="h6-responsive font-weight-bold mt-sm-3">Wellcome! I'm</h6>
                     <h1 id="mname" class="h6-responsive font-weight-bold">GILCHRIST CALUNIA</h1>
                     <h6 id="quo" class="mb-4 font-weight-bold">Information Technology, Front-end Web Developer.</h6>
                       <hr class="my-4"> 
@@ -44,24 +44,21 @@ export default {
 }
  #twel{
     font-family: 'Kaushan Script';
-    font-size: 18px;
+    font-size: 23px;
     color: #ffffff;
     padding-top: 25px;
   }
 #mname{
     font-family: 'Righteous';
     color: #3F51B5;
-    font-size: 40px;
+    font-size: 50px;
   }
 #quo{
     font-family: 'Lobster';
-    font-size: 18px;
+    font-size: 23px;
     font-weight: bolder;
     color: #ffffff;
     }
-#subs{
-  font-size: 12px;
-}
 #chat{
   color: #ffffff;
   font-family: 'Balsamiq Sans';
