@@ -37,31 +37,37 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BalsamiqSans&display=swap');
+
 .bg{
     background: url('../assets/photo/background.jpg') center ;
 }
-  #n-subscribers{
-    color: #ECAB44;
+ #twel{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 18px;
+    color: #ffffff;
+    padding-top: 25px;
   }
-  #j-1{
-    font-family: 'Monoton';
-    font-size: 35px;
-    color: #DEACF5;
+#mname{
+    font-family: 'Righteous', cursive;
+    color: #3F51B5;
+    font-size: 40px;
   }
-  #j-2{
-    font-family: 'Varela Round';
-    font-size: 20px;
+#quo{
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
     font-weight: bolder;
-    color: #fff;
-  }
-  #facebooklink{
-    background: #3f67b3;
-  }
-  #twitterlink{
-    background: #1EACFF;
-  }
-  #githublink{
-    background: #545B62;
-  }
+    color: #ffffff;
+    }
+#subs{
+  font-size: 12px;
+}
+#chat{
+  color: #ffffff;
+  font-family: 'Balsamiq Sans';
+}
 </style>
