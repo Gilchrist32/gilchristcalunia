@@ -1,28 +1,29 @@
 <template>
   <div class="bg">
     <b-infohome>
-      <b-mask class="gradient d-flex justify-content-center align-items-center">
-          <b-container>
-              <b-row>
-                  <div class="white-text text-center text-md-left col-md-6 mt-xl-5 mb-6 mt-3  ">
-                    <h6 id="twel" class="h6-responsive font-weight-bold mt-sm-3">Wellcome! I'M</h6>
-                    <h1 id="mname" class="h6-responsive font-weight-bold">GILCHRIST CALUNIA</h1>
-                    <h6 id="quo" class="mb-4 font-weight-bold">Information Technology, Front-end Web Developer.</h6>
-                      <hr class="my-4"> 
-                       <b-button variant="success" pill id="btngithub" href="https://github.com/Gilchrist32/gilchristcalunia-portfolio" target="_blank" size="md">
-                    <b-icon size="sm" class="ml-1 mt-0 mr-2" icon="inbox-fill" variant="warning"></b-icon>
-                    <span id="chat">LET'S CHAT</span></b-button>&nbsp;
-                    <b-button variant="outline-success" pill id="btngithub" href="https://github.com/Gilchrist32/gilchristcalunia-portfolio" target="_blank" size="md">
-                    <b-icon size="sm" class="ml-1 mt-0 mr-2" icon="arrow-down-circle-fill" variant="success"></b-icon>
-                    <span id="chat">ABOUT ME</span></b-button>
-                  </div>
-                   <b-col md="6" xl="5" class="mt-xl-5 ml-8">
-                      <b-img :src="require('@/assets/photo/profile.png')" alt="image fluid" width="340px"></b-img>
-            </b-col>
-              </b-row>
-          </b-container>
-    </b-mask> 
+      <b-row class="justify-content-center text-center">
+        <b-col cols="sm-12">
+          
+          <h1 class="mt-2 mb-1" id="j-1">Jerome Villaruel</h1>
+          <h4 class="mb-2" id="j-2">
+            Information Technology, Web Developer and UX & UI Designer.
+          </h4>
+          <b-avatar href="https://facebook.com/veoscript" target="_blank" id="facebooklink" v-b-tooltip.hover title="Add or Follow me on Facebook"><font-awesome-icon :icon="['fab', 'facebook']" /></b-avatar>&nbsp;
+          <b-avatar href="https://twitter.com/VeoScript43" target="_blank" id="twitterlink" v-b-tooltip.hover title="Follow me on Twitter"><font-awesome-icon :icon="['fab', 'twitter']" /></b-avatar>&nbsp;
+          <b-avatar href="https://github.com/VeoScript" target="_blank" id="githublink" v-b-tooltip.hover title="Follow me on Github and give a star for my repositories"><font-awesome-icon :icon="['fab', 'github']" /></b-avatar>&nbsp;
+           
+          <hr class="my-4">
+        </b-col>
+
+        <b-col cols="sm-12">
+          <p class="text-center">
+            Subscribe and Follow me to all of my social media accounts for more info and projects.
+          </p>
+        </b-col>
+      </b-row>
     </b-infohome>
+    <b-container>
+    </b-container>
   </div>
 </template>
 
@@ -38,13 +39,30 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=BalsamiqSans&display=swap');
-
 .bg{
     background: url('../assets/photo/background.jpg') center ;
 }
-
+  #n-subscribers{
+    color: #ECAB44;
+  }
+  #j-1{
+    font-family: 'Monoton';
+    font-size: 35px;
+    color: #DEACF5;
+  }
+  #j-2{
+    font-family: 'Varela Round';
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+  }
+  #facebooklink{
+    background: #3f67b3;
+  }
+  #twitterlink{
+    background: #1EACFF;
+  }
+  #githublink{
+    background: #545B62;
+  }
 </style>
