@@ -1,6 +1,6 @@
 import Vue from 'vue'
 
-import VueApollo, { ApolloProvider } from "vue-apollo";
+import VueApollo from "vue-apollo";
 import { ApolloClient } from "apollo-client";
 import { HttpLink } from "apollo-link-http";
 import { InMemoryCache} from 'apollo=cache-inmemory';
@@ -53,4 +53,4 @@ const apolloProvider = new VueApollo({
 });
 
 
-export default ApolloProvider
+export default apolloProvider
