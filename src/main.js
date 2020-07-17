@@ -19,6 +19,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import VueTimeago from 'vue-timeago';
 import VuePageTransition from 'vue-page-transition';
 import BackToTop from 'vue-backtotop';
+import { createProvider } from './vue-apollo'
 
 library.add(faUserSecret)
 library.add(faFontAwesome)
@@ -48,5 +49,6 @@ Vue.use(VueTimeago, {
 new Vue({
   router,
   store,
+  apolloProvider: createProvider(),
   render: h => h(App)
 }).$mount('#app')
