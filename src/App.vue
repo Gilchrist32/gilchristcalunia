@@ -51,4 +51,8 @@ export default {
    /* The image used */
     background-color: #2c3e50;
 }
+#nprogress .bar {
+  background: rgb(255, 255, 255) !important;
+  /* box-shadow: none !important; */
+}
 </style>

@@ -19,7 +19,8 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import VueTimeago from 'vue-timeago';
 import VuePageTransition from 'vue-page-transition';
 import BackToTop from 'vue-backtotop';
-import { createProvider } from './vue-apollo'
+import apolloProvider from './apolloProvider'
+import VueSweetalert2 from 'vue-sweetalert2'
 
 library.add(faUserSecret)
 library.add(faFontAwesome)
@@ -34,6 +35,7 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false
 
 Vue.use(Vuelidate)
+Vue.use(VueSweetalert2);
 Vue.use(BootstrapVue);
 Vue.use(BootstrapVueIcons)
 Vue.use(VuePageTransition)
@@ -49,6 +51,6 @@ Vue.use(VueTimeago, {
 new Vue({
   router,
   store,
-  apolloProvider: createProvider(),
+  apolloProvider,
   render: h => h(App)
 }).$mount('#app')

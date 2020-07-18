@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <spinner />
+         <spinner v-if="!loading" />
     <b-row class="mx-2 text-left">
       <b-col cols="sm-8" class="mt-0 mb-2">
         <b-card id="card-about">
@@ -77,7 +77,18 @@ export default {
     Spinner: () => import('@/components/Spinner'),
     Infocard: () => import('@/components/Infocard'),
     Workex: () => import('@/components/Workex')
-  }
+  },
+   data () {
+    return {
+        loading: false,
+        counter: null
+    }
+  },
+     apollo: {
+    about: {
+      
+    }
+  },
 }
 </script>
 
